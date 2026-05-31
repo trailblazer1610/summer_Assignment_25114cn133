@@ -16,10 +16,8 @@ int main() {
     printf("Enter two positive integers: ");
     scanf("%d %d", &num1, &num2);
 
-    // Calculate GCD first
     gcd = find_gcd(num1, num2);
 
-    // Calculate LCM using the formula
     lcm = (num1 * num2) / gcd;
 
     printf("The LCM of %d and %d is %d\n", num1, num2, lcm);
