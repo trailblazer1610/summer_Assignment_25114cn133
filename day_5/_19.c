@@ -1,3 +1,4 @@
+//print all factorial
 #include <stdio.h>
 int main(){
 
