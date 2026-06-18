@@ -17,12 +17,3 @@ for(int i=0;i<n;i++)
     printf("enter the %d term of array :",i+1);
     scanf("%d",&arr1[i]);
 }
-
-max = arr1[0];
-for(i=0;i<n;i++)
-{if(max<arr1[i])
-max=arr1[i];
-}
-
-return 0;
-}
