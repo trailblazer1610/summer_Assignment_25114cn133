@@ -19,6 +19,6 @@ for(i=0;i<n;i++){
         if(target==arr[i]+arr[j])
         {printf("term are %d and %d \n",arr[i],arr[j]);}
     }
-}
+  }
     return 0;
 }
